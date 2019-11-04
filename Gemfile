@@ -13,6 +13,7 @@ gem "jekyll", "3.8.5"
 #gem "github-pages", "202", group: :jekyll_plugins
 gem "jekyll-theme-hacker"
 #gem "jekyll-theme-minimal"
+gem "jekyll-remote-theme"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
