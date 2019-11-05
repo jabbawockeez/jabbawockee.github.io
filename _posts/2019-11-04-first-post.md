@@ -7,9 +7,9 @@ category: Story
 keywords: Story
 img: house.jpg
 ---
-<img width="300" src="{{site.baseurl}}/public/img/house.jpg">
+<img width="300" src="{{site.baseurl}}/assets/img/house.jpg">
 <audio controls>
-  <source src="{{site.baseurl}}/public/audio/Selena.mp3" type="audio/mpeg">
+  <source src="{{site.baseurl}}/assets/audio/Selena.mp3" type="audio/mpeg">
 </audio>
 In the spring of 1607, three ships landed on the shore of what is now America.  About 100 men – no women were asked to come – stepped onto the sand to start a new life. 
 
