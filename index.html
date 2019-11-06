@@ -1,53 +1,25 @@
 ---
-layout: default
-title: Home
+layout: main
 ---
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article>
-    <div>
-      <header>
-        <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-        <div><span>{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
-      </header>
-      <p>{{post.content | truncate: 300}} <a class="more" href="{{post.url | prepend: site.baseurl}}">(Read more...)</a></p>
-    </div>
-  </article>
-  {% endfor %}
-
-
-  <!--
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-      <p>{{ post.content | truncate: 200 }} <a class="more" href="{{post.url | prepend: site.baseurl}}">(Read more...)</a></p>
-  </div>
-  {% endfor %}
--->
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+{% for post in paginator.posts %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
   {% else %}
-    <span class="pagination-item older">Older</span>
   {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+
+  <div class="post-content">
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    {% if post.audio %}
+      <audio controls>
+        <source src="{{post.audio | prepend: site.baseurl }}" type="audio/mpeg">
+      </audio>
     {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+  </div>
+</article>
+{% endfor %}
 
+{% include pagination.html %}
