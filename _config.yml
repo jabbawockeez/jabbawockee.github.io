@@ -1,22 +1,22 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+# permalink:           pretty
 #relative_permalinks: true
 
 # Setup
 title:               Jabba's awesome journey of
-tagline:             'Englishing'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 'https://jabbawockeez.github.io/'
-baseurl:             ''
-paginate:            5
+# tagline:             'Englishing'
+# description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+# url:                 'https://jabbawockeez.github.io/'
+# baseurl:             ''
+# paginate:            5
 
-# About/contact
-author:
-  name:              Jabba Feng
-  url:               
-  email:             fhj760608972@gmail.com
+# # About/contact
+# author:
+#   name:              Jabba Feng
+#   url:               
+#   email:             fhj760608972@gmail.com
 
-# Custom vars
-version:             1.0.0
+# # Custom vars
+# version:             1.0.0
