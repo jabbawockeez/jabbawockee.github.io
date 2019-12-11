@@ -11,7 +11,13 @@ img: learning.png
 
 <audio id="player"></audio>
 
-### cross off
+### give or take
+1. We have 25 students in the classroom, give or take.
+2. I'll be there in 30 minutes, give or take a few minutes.
+
+### cross
+1. Cross off the items that you've finished.
+2. I crave that toy car, cross my heart and hope to die.
 
 ### resent
 1. He resented his boss for making him work late. {% show_audio resent_1.mp3 %}
