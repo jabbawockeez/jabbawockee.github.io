@@ -4,7 +4,7 @@
  <title>Englishing</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2019-12-11T08:58:15+08:00</updated>
+ <updated>2019-12-11T08:59:54+08:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -19,7 +19,17 @@
    <id>/sentences</id>
    <content type="html">&lt;audio id=&quot;player&quot;&gt;&lt;/audio&gt;
 
-&lt;h3 id=&quot;cross-off&quot;&gt;cross off&lt;/h3&gt;
+&lt;h3 id=&quot;give-or-take&quot;&gt;give or take&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;We have 25 students in the classroom, give or take.&lt;/li&gt;
+  &lt;li&gt;I’ll be there in 30 minutes, give or take a few minutes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;cross&quot;&gt;cross&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Cross off the items that you’ve finished.&lt;/li&gt;
+  &lt;li&gt;I crave that toy car, cross my heart and hope to die.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h3 id=&quot;resent&quot;&gt;resent&lt;/h3&gt;
 &lt;ol&gt;
