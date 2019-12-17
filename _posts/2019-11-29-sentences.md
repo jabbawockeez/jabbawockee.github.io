@@ -11,6 +11,13 @@ img: learning.png
 
 <audio id="player"></audio>
 
+### (down) to a t/tee
+1. The shirt fits me to a t.
+
+### burst into tears
+1. When one can no longer restrain themselves, they burst into tears.
+2. When she spilt juice on her new skirt the little girl burst into tears.
+
 ### give or take
 1. We have 25 students in the classroom, give or take.
 2. I'll be there in 30 minutes, give or take a few minutes.
