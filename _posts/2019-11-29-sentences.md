@@ -11,6 +11,19 @@ img: learning.png
 
 <audio id="player"></audio>
 
+### leaps and bounds
+1. My English used to improve by leaps and bounds.
+
+### hit a plateau
+1. I feel like my career has hit a plateau
+
+### groom
+1. My girlfriend spends a lot of time on personal grooming every morning.
+2. He's well groomed to take the company.
+
+### block somebody’s view
+1. The building block our view of the ocean.
+
 ### (down) to a t/tee
 1. The shirt fits me to a t.
 
